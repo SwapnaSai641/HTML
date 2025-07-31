@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Forms</title>
+</head>
+<body>
+   <ol type="A">
+    <li>Task-1
+        <form action="">
+            <fieldset style="width: 50%;height: 60%;">
+                <center><h4>Contact Us Today</h4>
+                <table>
+                    <tr>
+                        <td><label for="fn">First Name:</label></td>
+                        <td><input type="text" name="First Name" id="fn" placeholder="First Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ln">Last Name:</label></td>
+                        <td><input type="text" name="Last Name" id="ln" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">E-mail:</label></td>
+                        <td><input type="email" name="E-mail" id="mail" placeholder="E-mail Address"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone no.:</label></td>
+                        <td><input type="tel" name="phone no." id="phone" maxlength="10" placeholder="Enter your phone number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="add">Address:</label></td>
+                        <td><input type="text" name="address" id="add" placeholder="Address"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City:</label></td>
+                        <td><input type="text" name="city" id="city" placeholder="City"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State:</label></td>
+                        <td><select name="state" id="st">
+                    <option disabled selected value="State">Please Select your State</option>
+                    <option value="rangareddy">Ranga Reddy</option>
+                    <option value="secundrabad">Secundrabad</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pincode">Zip Code:</label></td>
+                        <td><input type="text" name="Zipcode" id="pincode" placeholder="Zip Code" maxlength="6"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="web">Website or Domain Name:</label></td>
+                        <td><input type="text" name="Website" id="web" placeholder="Website or Domain Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="host">Do you have hosting?:</label></td>
+                        <td><input type="radio" id="yes" name="host" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="host" value="no" >
+                <label for="no">No</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pro">Project Description:</label></td>
+                        <td><textarea name="Project description" id="pro" placeholder="Project Description"></textarea></td>
+                    </tr>
+                </table> 
+                </center>
+                <center><input type="submit"></center>               
+                
+            </fieldset>
+        </form>
+    </li>
+    <li>Task-2
+        <form action="">
+            <fieldset style="width: 50%;height: 60%;">
+                <center><h4>My feedback form</h4></center>
+                <ul type="disc">
+                    <li>
+                        <label for="name">Name:</label>
+                        <input required type="text" name="name" id="name" >
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" name="email" id="mail">
+                    </li>
+                    <li>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </li>
+                    <li>Please check all the emotions that apply to you:
+                        <ul type="disc">
+                            <li>
+                                <label for="check">Angry</label>
+                                <input type="checkbox" id="check" name="check" >
+                            </li>
+                            <li>
+                                <label for="check">Sad</label>
+                                <input type="checkbox" id="check" name="check" >
+                            </li>
+                            <li>
+                                <label for="check">Happy</label>
+                                <input type="checkbox" id="check" name="check" >
+                            </li>
+                            <li>
+                                <label for="check">Ambivalent</label>
+                                <input type="checkbox" id="check" name="check" >
+                            </li>
+                        </ul>
+
+                        
+                    </li>
+                    <li>How satisfied were you with our service?
+                        <ul type="disc">
+                            <li>
+                                <label for="check">Very satisfied</label>
+                                <input type="radio" id="check" name="check" value="check" >
+                            </li>
+                            <li>
+                                <label for="check">Satisfied</label>
+                                <input type="radio" id="check" name="check" value="check" >
+                            </li>
+                            <li>
+                                <label for="check">Didn't care</label>
+                                <input type="radio" id="check" name="check" value="check" >
+                            </li>
+                            <li>
+                                <label for="check">Dissatisfied</label>
+                                <input type="radio" id="check" name="check" value="check" >
+                            </li>
+                            <li>
+                               <label for="check">Very Dissatisfied</label>
+                                <input type="radio" id="check" name="check" value="check" > 
+                            </li>
+                        </ul> 
+
+                    </li>
+                    <li><label for="comments">Further comments:</label>
+                        <textarea name="comments" id="comments"></textarea>
+                    </li>
+                    <li><label for="bio">Bio photo:</label>
+                        <input type="file" name="photo" id="bio">
+                    </li> 
+                    <li>
+                        <label for="location">Location Visited:</label>
+                        <select name="location" id="location">
+                            <option disabled selected value="select">Select location</option>
+                            <option value="kukatpally">Kukatpally</option>
+                            <option value="Kphb">KPHB colony</option>
+                            <option value="rc puram">RC Puram</option>
+                        </select>
+                    </li>
+                </ul>
+                <center><input type="submit"></center>
+            </fieldset>   
+        </form>
+    </li>
+    <li>Task-3
+        <form action="">
+            <fieldset style="width: 50%;height: 60%;">
+                <center><h4>Application Form</h4></center>
+            <table>
+                <tr>
+                    <td><label for="fn">First Name:</label></td>
+                    <td><input type="text" required name="first name" id="fn"></td>
+                    <td><label for="ln">Last Name:</label></td>
+                    <td><input type="text" name="last name" id="ln"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="datetime" placeholder="mm/dd/yyyy" name="dob" id="dob"></td>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="Age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><select name="gender" id="gender">
+                        <option disabled selected value="select">Select..</option>
+                        <option value="male" name="gender">Male</option>
+                        <option value="female" name="gender">Female</option>
+                    </select></td>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" nmae="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Positions Available:</label>
+                    <td>
+                        <input type="radio" id="jd" name="position" value="jd" >
+                        <label for="jd">Junior Developer</label>
+                        <br>
+                        <input type="radio" id="md" name="position" value="md" >
+                        <label for="md">Mid-level Developer</label>
+                        <br>
+                        <input type="radio" id="sd" name="position" value="sd" >
+                        <label for="sd">Senior Developer</label>
+                    </td>
+                    <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                <td><label>Programming Languages:</label></td>
+                <td colspan="3">
+                    <input type="checkbox" id="java" name="lan" value="java" >
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="js" name="lan" value="js" >
+                    <label for="js">Java Script</label>
+                    <input type="checkbox" id="python" name="lan" value="python" >
+                    <label for="python">Python</label>
+                </td>
+                <!-- <td></td>
+                <td></td> -->
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass" name="password"></td>
+                    <td><label for="confirm">Confirm Password</label></td>
+                    <td><input type="password" id="confirm" name="confirm"></td>
+                </tr>
+            </table>
+            <center><input type="submit">
+            <input type="Reset"></center>
+
+            </fieldset>
+        </form>
+    </li>
+   </ol> 
+</body>
+</html>
+
+
